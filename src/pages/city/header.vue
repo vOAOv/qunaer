@@ -7,7 +7,8 @@
           </div>
         </router-link>
 				<div class="header-title">
-					<div class="area-switch">国内</div>
+					<div class="area-switch-left">国内</div>
+					<div class="area-switch-right">海外</div>
 				</div>
 			</header>
 	</div>
@@ -21,42 +22,50 @@ export default {
 
 <style lang="stylus" scoped>
 	.header-container
-		background: #00bcd4
-		height: .88rem
-		left: 0
-		position: fixed
-		top: 0
 		width: 100%
+		height: .88rem
+		position: fixed
+		left: 0
+		top: 0
+		background: #00bcd4
 		.header
-			align-items: center
-			background: #00bcd4
-			display: flex
-			flex-direction: row
 			height: .88rem
+			display: flex
+			align-items: center
+			background: #00bcd4			
+			flex-direction: row
 			justify-content: center
 			overflow: hidden
 			text-align: center
 			.header-left
-				color: #fff
-				font-size: .4rem
-				font-weight: bold
-				left: 0
-				line-height: .88rem
-				position: absolute
-				padding: 0 .1rem
-				top: 0
 				width: .58rem
-			.header-title
+				line-height: .88rem
+				font-size: .4rem
+				padding: .1rem
+				font-weight: bold
+				position: absolute
+				left: 0				
+				top: 0
 				color: #fff
+			.header-title				
+				height: .56rem
+				width: 4rem
+				border-radius: .1rem
 				display: flex
 				flex-direction: row
-				height: .56rem
-				width: 2rem
-				.area-switch
-					border: 1px solid #fff
-					background: #fff
-					border-radius: 0.1rem
-					color: #00bcd4
+				background: #fff
+				.area-switch-left					
 					line-height: .54rem
-					width: 2rem			
+					width: 2rem
+					border: 1px solid #fff					
+					border-radius: .1rem
+					color: #00bcd4
+					background: #fff
+				.area-switch-right
+					line-height: .54rem
+					width: 2rem
+					border: 1px solid #fff
+					border-radius: .1rem
+					background: #00bcd4
+					color: #fff				
 </style>

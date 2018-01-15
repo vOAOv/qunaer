@@ -16,13 +16,13 @@
 
 <style lang="stylus" scopde>
 	.city-Show
-	  border-top: 1px solid #f5f5f5
-	  color: #21212
-	  font-size: .28rem
-	  line-height: .76rem
-	  overflow: hidden
-	  padding-left: .2rem
-	  text-overflow: ellipsis
-	  white-space: nowrap
 	  width: 100%
+	  line-height: .76rem
+	  border-top: 1px solid #f5f5f5	  
+	  font-size: .28rem	  	  
+	  padding-left: .2rem
+	  color: #21212
+	  overflow: hidden
+	  text-overflow: ellipsis
+	  white-space: nowrap	  
 </style>

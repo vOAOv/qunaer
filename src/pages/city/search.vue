@@ -18,17 +18,17 @@ export default {
 
 <style lang="stylus" scoped>
 	.search-area
-		background: #00bcd4
-		color: #9e9e9e
 		font-size: .26rem
 		margin-top: .88rem
 		padding: .06rem .2rem .1rem .2rem
+		background: #00bcd4
+		color: #9e9e9e		
 		.search-input
-			border: 0
-			border-radius: .06rem
-			display: block
+			width: 100%
 			line-height: .3rem
+			display: block
+			border: 0
+			border-radius: .06rem						
 			padding: .16rem 0 .16rem .1rem
-			text-align: center
-			width: 100%	
+			text-align: center				
 </style>

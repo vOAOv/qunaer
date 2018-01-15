@@ -1,7 +1,7 @@
 {
   "ret": true,
   "data": {
-    "city": "长沙",
+    "city": "北京",
     "hotcity": [{
 			"id":30001,
 			"city":"北京"
