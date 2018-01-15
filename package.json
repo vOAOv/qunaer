@@ -1,8 +1,8 @@
 {
-  "name": "qunaer",
+  "name": "1722",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "dengrui <1359232264@qq.com>",
+  "author": "shenglong.li <913937000@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -11,7 +11,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "fastclick": "^1.0.6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
     "vue": "^2.5.2",
+    "vue-awesome-swiper": "2.6.7",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
