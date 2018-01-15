@@ -1,8 +1,8 @@
 {
-  "name": "1722",
+  "name": "city",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "shenglong.li <913937000@qq.com>",
+  "author": "dengrui <1359232264@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

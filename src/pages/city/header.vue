@@ -41,7 +41,7 @@ export default {
 				width: .58rem
 				line-height: .88rem
 				font-size: .4rem
-				padding: .1rem
+				padding: .05rem
 				font-weight: bold
 				position: absolute
 				left: 0				
